@@ -83,3 +83,28 @@ router.delete("/:id", async (req, res) => {
 });
 
 module.exports = router;
+
+
+// The goal of the ./routes/api/category-routes.js file in this ORM is to define the API routes for performing CRUD operations on the Category model.
+
+
+// In this snippet, the file exports an Express router instance (router) that handles the following API routes:
+
+
+
+// GET /api/categories: Retrieves all categories, including their associated products. It uses the Category.findAll() method with the include option to include the Product model.
+
+// GET /api/categories/:id: Retrieves a single category by its ID, including its associated products. It uses the Category.findByPk() method with the include option to include the Product model.
+
+// POST /api/categories: Creates a new category. It uses the Category.create() method and passes the request body as the data for creating the category.
+
+// PUT /api/categories/:id: Updates a category by its ID. It uses the Category.update() method and passes the request body as the updated data. The update is based on the category's ID.
+
+// DELETE /api/categories/:id: Deletes a category by its ID. It uses the Category.destroy() method and specifies the category to delete based on its ID.
+
+
+// For each route, there is error handling in case of any exceptions or errors. If an error occurs, it logs the error and sends an appropriate error response.
+
+
+// The router instance is exported to be used in other parts of the application.
+

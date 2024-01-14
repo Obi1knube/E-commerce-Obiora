@@ -155,3 +155,31 @@ router.delete("/:id", (req, res) => {
 });
 
 module.exports = router;
+
+
+
+
+
+
+// The goal of the ./routes/api/product-routes.js file in this ORM is to define the API routes specifically for the Product model.
+
+
+// In this snippet, the file exports an Express router instance (router) that handles the following API routes related to products:
+
+
+
+// GET /api/products: Retrieves all products, including their associated category and tag data. It uses the Product.findAll() method with the include option to include the Category and Tag models. The attributes of the included models are specified to determine which columns to include in the response.
+
+// GET /api/products/:id: Retrieves a single product by its ID, including its associated category and tag data. It uses the Product.findOne() method with the include option to include the Category and Tag models. The attributes of the included models are specified to determine which columns to include in the response.
+
+// POST /api/products: Creates a new product. It uses the Product.create() method and passes the request body as the data for creating the product. If the request body includes tagIds, it also creates associations between the product and tags using the ProductTag model.
+
+// PUT /api/products/:id: Updates a product by its ID. It uses the Product.update() method and passes the request body as the updated data. The update is based on the product's ID. If the request body includes tagIds, it updates the associations between the product and tags using the ProductTag model.
+
+// DELETE /api/products/:id: Deletes a product by its ID. It uses the Product.destroy() method and specifies the product to delete based on its ID.
+
+
+// These routes interact with the Product, Category, Tag, and ProductTag models using Sequelize methods to perform the corresponding CRUD operations and handle associations between the models.
+
+
+// The router instance is exported to be used in other parts of the application, allowing the main API router (./routes/api/index.js) to mount these product routes under the /products URL path.

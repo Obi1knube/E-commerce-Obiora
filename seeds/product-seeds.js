@@ -36,3 +36,14 @@ const productData = [
 const seedProducts = () => Product.bulkCreate(productData);
 
 module.exports = seedProducts;
+
+
+// The goal of the product-seed.js file in this ORM is to seed the Product table in the database with initial data.
+// The file exports a function seedProducts that uses the Product model to bulk create multiple product records in the database. 
+// The productData array contains objects representing the properties of each product, such as the product name, price, stock, and category ID. 
+
+// When the seedProducts function is executed, it uses the bulkCreate method provided by Sequelize to insert the data from the productData array into the Product table.
+// This allows for efficient insertion of multiple records at once. 
+
+// By running this file, the Product table will be populated with the sample data provided in the productData array. 
+// This can be useful for testing, demonstration, or initializing the database with predefined data.
