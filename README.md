@@ -4,9 +4,9 @@
 
 Internet retail, also known as **e-commerce**, plays a significant role within the electronics industry, as it empowers businesses and consumers alike to conveniently engage in online buying and selling of electronic products. In the latest available data from 2021, the industry in the United States alone was estimated to have generated the substantial amount of US$2.54 trillion, according to the United Nations Conference on Trade and Development. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+In this project, my task is to build the back end for an e-commerce site by modifying starter code. I’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+This application won’t be deployed, rather, I have provided a link to a walkthrough video that demonstrating its functionality and all of the acceptance criteria being met.  The link to the videohas been added to the bottom of this readme of the project.
 
 ## User Story
 
@@ -54,6 +54,3 @@ Your walkthrough video should also show the POST, PUT, and DELETE routes for pro
 
 *Here is a walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met: 
 https://drive.google.com/file/d/1I8AwGp65tVAxADJbIYj3WFKRzAfz31-U/view
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
